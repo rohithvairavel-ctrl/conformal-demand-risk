@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "source": "raw",
+    "alpha": 0.1,
+    "alphas_grid": [0.05, 0.1, 0.2, 0.15, 0.25],
+    "lags": [1, 2, 3, 7, 14, 21, 28],
+    "train_frac": 0.6,
+    "calib_frac": 0.2,
+    "seed": 42,
+    "n_series_days": 1097,
+    "date_start": "2012-01-01",
+    "date_end": "2015-01-01"
+  },
+  "summary": [
+    {"item": "item_1", "model": "ridge", "alpha": 0.1, "mae": 0.6777957836294727, "rmse": 1.0868621122061597, "r2": 0.781436270529488, "empirical_coverage": 0.9813953488372092, "nominal_coverage": 0.9, "coverage_gap": 0.08139534883720922, "mean_width": 5.32493244743067, "q_hat": 2.6624662237153345, "service_level_upper": 0.9953488372093023, "fill_rate_upper": 0.9998539063663053, "service_level_point": 0.5302325581395348},
+    {"item": "item_1", "model": "lightgbm", "alpha": 0.1, "mae": 0.7354714694958452, "rmse": 1.1479812114781756, "r2": 0.7561634786733531, "empirical_coverage": 0.9813953488372092, "nominal_coverage": 0.9, "coverage_gap": 0.08139534883720922, "mean_width": 5.402522726242965, "q_hat": 2.701261363121482, "service_level_upper": 0.9953488372093023, "fill_rate_upper": 0.9998372631179877, "service_level_point": 0.5767441860465117},
+    {"item": "item_2", "model": "ridge", "alpha": 0.1, "mae": 1.9487182484197367, "rmse": 2.662378077938573, "r2": 0.5686220124689869, "empirical_coverage": 0.958139534883721, "nominal_coverage": 0.9, "coverage_gap": 0.05813953488372092, "mean_width": 11.912787491356713, "q_hat": 5.956393745678355, "service_level_upper": 0.9674418604651163, "fill_rate_upper": 0.9960367919504844, "service_level_point": 0.5534883720930233},
+    {"item": "item_2", "model": "lightgbm", "alpha": 0.1, "mae": 2.0087548193811804, "rmse": 2.6780786319190506, "r2": 0.5635191730924574, "empirical_coverage": 0.9441860465116279, "nominal_coverage": 0.9, "coverage_gap": 0.04418604651162783, "mean_width": 11.551759232960928, "q_hat": 5.775879616480463, "service_level_upper": 0.9720930232558139, "fill_rate_upper": 0.9978191315807151, "service_level_point": 0.5348837209302325},
+    {"item": "item_3", "model": "ridge", "alpha": 0.1, "mae": 2.8714180451296905, "rmse": 3.8604635502672937, "r2": 0.3374831616494981, "empirical_coverage": 0.9302325581395349, "nominal_coverage": 0.9, "coverage_gap": 0.03023255813953485, "mean_width": 14.542804134178144, "q_hat": 7.271402067089074, "service_level_upper": 0.9534883720930233, "fill_rate_upper": 0.9929449605305144, "service_level_point": 0.5023255813953489},
+    {"item": "item_3", "model": "lightgbm", "alpha": 0.1, "mae": 3.0356781064438936, "rmse": 3.9249945349405566, "r2": 0.3151489580414888, "empirical_coverage": 0.9395348837209302, "nominal_coverage": 0.9, "coverage_gap": 0.03953488372093017, "mean_width": 15.156637842249294, "q_hat": 7.5783189211246516, "service_level_upper": 0.958139534883721, "fill_rate_upper": 0.994968952341682, "service_level_point": 0.49767441860465117}
+  ]
+}
